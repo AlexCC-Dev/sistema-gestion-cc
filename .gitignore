@@ -1,0 +1,70 @@
+# ==========================================
+# Dependencias de Node.js
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+# (Opcional: Descomenta package-lock si prefieres no subirlo, aunque se recomienda subirlo)
+
+# ==========================================
+# Electron & Compilación (Builders/Packagers)
+# ==========================================
+# Directorios comunes de salida de electron-builder y electron-packager
+dist/
+out/
+release/
+build/
+
+# Archivos generados por electron-forge
+.webpack/
+.vite/
+
+# Ejecutables de aplicaciones empaquetadas
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+*.zip
+
+# ==========================================
+# Entorno y Secretos
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# Sistema Operativo y Editores
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# IntelliJ / WebStorm
+.idea/
+
+# ==========================================
+# Logs y Temporales
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
